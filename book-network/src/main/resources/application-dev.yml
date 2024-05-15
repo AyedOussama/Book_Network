@@ -14,20 +14,7 @@ spring:
       hibernate:
         format_sql: true # pour formater les requêtes SQL
     database: mysql
-#  datasource:
-#    url: jdbc:postgresql://localhost:5432/book_social_network
-#    username: root
-#    password: root
-#    driver-class-name: org.postgresql.Driver
-#  jpa:
-#       database-platform: org.hibernate.dialect.PostgreSQLDialect
-#       database: postgresql
-#       hibernate:
-#            ddl-auto: create # ou "create" si vous voulez que Hibernate crée automatiquement les tables
-#       show-sql: false # pour afficher les requêtes SQL dans la console
-#       properties:
-#            hibernate:
-#            format_sql: true # pour formater les requêtes SQL
+
 
   mail:
     host: localhost

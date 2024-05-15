@@ -1,4 +1,4 @@
-package com.ayed.booknetwork.Book;
+package com.ayed.booknetwork.Feedback;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -13,7 +13,6 @@ import java.util.List;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-
 public class PageResponse<T> {
     private List<T> content;
     private int number;
